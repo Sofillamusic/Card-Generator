@@ -1,1 +1,33 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.card {
+  width: 500px;
+  height: 700px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-text {
+  font-size: 200px;
+  text-align: center;
+}
+
+.suit-top-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-left: 20px;
+  font-size: 90px; /* adjust to your desired size */
+}
+
+.suit-bottom-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding-right: 20px;
+  font-size: 90px; /* adjust to your desired size */
+}
